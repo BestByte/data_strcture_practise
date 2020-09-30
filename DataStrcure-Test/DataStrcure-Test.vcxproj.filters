@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="add.cpp">
+      <Filter>sourcefiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="add.h">
+      <Filter>headfiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="headfiles">
+      <UniqueIdentifier>{095e25f7-e06a-4d9b-b6a1-25b0d0dad393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sourcefiles">
+      <UniqueIdentifier>{1a300063-bad2-4901-95af-1624bdb1808a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
